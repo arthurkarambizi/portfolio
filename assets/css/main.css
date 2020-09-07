@@ -445,34 +445,6 @@ footer {
 
 /* ========================================= */
 
-/* RESUME PAGE */
-
-/* ========================================= */
-
-.resume {
-    padding: 10% 0;
-    background-color: var( --form-color);
-    box-shadow: 2px 2px 35px var( --form-color-shadow);
-    margin-top: 3%;
-}
-
-.resume-intro {
-    text-align: center;
-    margin-bottom: 8%;
-}
-
-.resume-container {
-    width: 85%;
-    margin: 0 auto;
-}
-
-.resume-list {
-    list-style: circle;
-    font-family: 'PT Serif', serif;
-}
-
-/* ========================================= */
-
 /*  WORK PAGE */
 
 /* ========================================= */
@@ -868,16 +840,7 @@ input {
     .interests-icons {
         grid-template-columns: auto auto auto;
     }
-    /* ---------- RESUME PAGE---------- */
-    .resume-title {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        width: 100%;
-    }
-    .resume-date,
-    .resume-job {
-        text-align: center;
-    }
+
     /* ---------- WORK PAGE---------- */
     .main-work {
         grid-template-columns: auto auto auto;
